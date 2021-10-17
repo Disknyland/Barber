@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:scrollbars="vertical"
+    android:background="#F5F2FB"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ติดต่อสอบถาม"
+        android:textSize="20dp"
+        android:textColor="#8870B8"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/clickAbout"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+       />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnreserve"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_login_button"
+        android:text="จองคิว"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btninform"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_login_button"
+        android:text="ดูข้อมูลการจอง"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="55dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/Notice"
+         />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/Homebtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/homee" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/AllReservDetailbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/calendar" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user"
+        android:id="@+id/Profilrbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="305dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#8870B8"
+        android:layout_above="@id/Profilrbtn"
+        android:layout_marginBottom="15dp"/>
+
+
+</RelativeLayout>
